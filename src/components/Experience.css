@@ -1,0 +1,45 @@
+.experience{
+    color:wheat;
+    position: static;
+    padding-top: 40px;
+    padding-left: 400px;
+    padding-right: 400px;
+}
+
+.exp_timeline b {
+    padding-top: 10px;
+    color: aliceblue;
+}
+
+
+
+.exp_timeline img{
+    width: 50%;
+}
+
+.exp_timeline .smaller{
+    width: 20%;
+}
+
+.white-text.ant-progress .ant-progress-text {
+    color: aliceblue;
+    font-size: 30;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.exp_timeline Card{
+    background-color: lightblue;
+}
+
+.exp_timeline .exp_title{
+    font-style: italic;
+}
+
+.exp_timeline .exp_detail {
+    padding-top: 10px;
+    color: aliceblue;
+}
+
+.exp_detail div{
+    padding-bottom: 5px;
+}

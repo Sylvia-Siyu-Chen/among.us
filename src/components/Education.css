@@ -1,0 +1,55 @@
+.edu_text{
+    text-align: center;
+    color: white;
+    position: static;
+    /* padding-left: 400px; */
+    padding-bottom: 100px;
+}
+
+.edu_img {
+    padding-top: 20px;
+    /* padding-right: 900px; */
+    position: fixed;
+}
+
+
+
+
+
+#edu_right{
+    margin-top: 40px;
+    /* background-color: rgba(251, 250, 252, 0.048); */
+    width: 800px;
+}
+
+
+.edu_text h3{
+    color: aliceblue;
+    font-size: 20px;
+    font-style: italic;
+    font-family: 'gotham';
+    /* color: #57068c; */
+    /* background-color: whitesmoke; */
+}
+
+.edu_text div{
+    font-family: Lalezar;
+}
+
+.courses div b{
+    color: aliceblue;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.courses div {
+    color: gray;
+}
+
+
+.edu_text .title{
+    font-size: 30px;
+    font-family: 'DotGothic16';
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+

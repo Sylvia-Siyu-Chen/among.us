@@ -1,0 +1,162 @@
+
+
+
+
+
+#tsparticles{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0
+}
+
+
+.intro {
+    /* background-color: black; */
+    /* background-image: url('./Background.jsx'); */
+    /* cursor: url('../img/circle.png'), auto; */
+    position: absolute;
+}
+
+.content-small{
+    /* color:#232741d3; */
+    color: black;
+
+}
+
+.nav a{
+    text-decoration: none;
+    font-family: 'DotGothic16';
+    font-size: 20px;
+    color: whitesmoke;
+}
+
+
+
+.noselect .intro_text a {
+    text-decoration: none;
+    color: inherit;
+    /* cursor: url('../img/circle.png'),auto; */
+  }
+
+
+  .content {
+    color: #a2a2a2;
+    width: 75rem;
+  }
+
+  .bold {
+    color: whitesmoke;
+    font-size: 3rem;
+    font-weight: bold;
+    width: 75rem;
+  }
+  
+
+.text-container {
+    padding-top: 200px;
+    padding-left: 90px;
+    color: whitesmoke;
+    text-align: left;
+    font-size: 25px;
+    font-family:Lalezar;
+}
+
+.noselect {
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+    -khtml-user-select: none; /* Konqueror HTML */
+    -moz-user-select: none; /* Old versions of Firefox */
+    -ms-user-select: none; /* Internet Explorer/Edge */
+    user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome, Edge, Opera and Firefox */
+  }
+
+
+span {
+    transition: color 3s;
+  }
+  
+span:hover {
+    transition: color 10ms;
+  }
+
+
+.intro_text #begin{
+    font-size: 35px;
+    font-family: Lalezar;
+}
+
+.intro_text span{
+    padding-left: 3px;
+}
+
+#violet:hover {
+    background-color: #57068c;
+    color: #FFFF;
+}
+
+#kodak:hover{
+    background-color: #FAB617;
+    color: #E30613;
+}
+
+#code:hover{
+    color: #0078d7;
+    background-color: #FFFF 0.5;
+    /* background: transparent ; */
+}
+
+  
+
+.intro_text .red:hover{
+    color: rgb(173, 90, 90);
+}
+
+.intro_text .yellow:hover{
+    color: rgb(212, 212, 155);
+}
+
+
+.intro_photo img {
+    padding-top: 200px;
+    padding-bottom: 30px;
+    width: 80%;
+    position: relative;
+}
+
+
+.my-icon {
+    font-size: 2rem;
+    color: #a2a2a2;
+    margin: 0.3rem;
+  }
+
+.intro_text .green:hover{
+    color: rgb(91, 139, 91);
+}
+
+
+.intro_text .blue:hover{
+    color: rgb(149, 180, 221);
+}
+
+.intro_text .pink:hover{
+    color: pink;
+    animation : none
+}
+
+.intro_text .orange:hover{
+    color: rgb(212, 192, 154);
+}
+
+.sig{
+    width: 90%;
+    padding-left: 300px;
+    padding-bottom: 10px;
+}
+
+
+ 

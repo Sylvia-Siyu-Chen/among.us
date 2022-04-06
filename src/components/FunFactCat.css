@@ -1,0 +1,61 @@
+
+
+.funfacts{
+    font-family: 'Grape Nuts';
+    font-size: large;
+}
+
+.fun_description span{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: medium;
+}
+
+
+.funfacts .fun_description{
+    color: aliceblue;
+    padding-bottom: 40px;
+}
+
+.funfacts .fun_cat{
+    padding-top: 50px;
+}
+
+
+.funfacts Toast {
+    color: black;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+.funfacts Button {
+    margin-top: 40px;
+    color: lightcyan;
+}
+
+/* .funfacts .fun_card{
+    display: inline-block;
+} */
+
+.fun_card .text {
+    color: aliceblue;
+    font-family:'Grape Nuts';
+    font-style: italic;
+    padding-bottom: 20px;
+}
+
+.fun_card .text .del {
+    color: gray;
+}
+
+.fun_card .title{
+    padding-top: 8px;
+    color: aliceblue;
+    font-family:'Rock 3D';
+    font-style: italic;
+    font-size: large;
+}
+
+
+.funfacts Container {
+    padding-bottom: 40px;
+}

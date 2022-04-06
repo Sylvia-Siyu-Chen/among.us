@@ -1,0 +1,19 @@
+.input {
+    padding-top: 50px;
+}
+
+.input .ne{
+    color: aliceblue;
+    padding-top: 30px;
+    padding-left: 600px;
+    padding-right: 600px;
+}
+
+.input label {
+    padding-top: 30px;
+}
+
+#message{
+    padding-left: 500px;
+    padding-right: 500px;
+}
