@@ -1,8 +1,8 @@
 import 'express'
-import app from './App'
+import App from './App'
 
-app.use(express.static(path.join(__dirname,'build')));
+App.use(express.static(path.join(__dirname,'build')));
 
-app.get('/*',(req,res)=>{
+App.get('/*',(req,res)=>{
     res.sendFile(path.join(__dirname,'build','index.html'));
 });
