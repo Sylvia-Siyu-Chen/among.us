@@ -1,15 +1,15 @@
 import './App.css';
 import CarouselControll from "./components/Carousel"
-// import { Tab, Tabs, Nav, Container, Navbar, NavDropdown } from 'react-bootstrap';
+import { Tab, Tabs, Nav, Container, Navbar, NavDropdown } from 'react-bootstrap';
 import Education from './components/Education';
-// import { Menu, Drawer, Button } from 'antd';
+import { Menu, Drawer, Button } from 'antd';
 import {useState} from 'react'
 import Experience from './components/Experience';
 import FunFact from './components/FunFactCat';
 import Home from './components/Home';
 // import Connect from './components/Connect';
 import Foto from './components/Foto';
-// import HomeScript from './components/HomeScript';
+import HomeScript from './components/HomeScript';
 
 // import circle from './img/circle.png'
 import red from './img/red.png'
@@ -17,11 +17,11 @@ import Particles from "react-tsparticles";
 
 
 
-// import Box from '@mui/material/Box';
-// import Backdrop from '@mui/material/Backdrop';
-import SpeedDial from '@mui/material/SpeedDial';
-// import SpeedDialIcon from '@mui/material/SpeedDialIcon';
-// import SpeedDialAction from '@mui/material/SpeedDialAction';
+import Box from '@mui/material/Box';
+import Backdrop from '@mui/material/Backdrop';
+// import SpeedDial from '@mui/material/SpeedDial';
+// // import SpeedDialIcon from '@mui/material/SpeedDialIcon';
+// // import SpeedDialAction from '@mui/material/SpeedDialAction';
 import { styled } from '@mui/material/styles';
 
 
@@ -53,17 +53,17 @@ function App() {
     console.log(container);
   };
 
-  const StyledSpeedDial = styled(SpeedDial)(({ theme }) => ({
-    position: 'absolute',
-    '&.MuiSpeedDial-directionUp, &.MuiSpeedDial-directionLeft': {
-      bottom: theme.spacing(2),
-      right: theme.spacing(2),
-    },
-    '&.MuiSpeedDial-directionDown, &.MuiSpeedDial-directionRight': {
-      top: theme.spacing(2),
-      left: theme.spacing(2),
-    },
-  }));
+  // const StyledSpeedDial = styled(SpeedDial)(({ theme }) => ({
+  //   position: 'absolute',
+  //   '&.MuiSpeedDial-directionUp, &.MuiSpeedDial-directionLeft': {
+  //     bottom: theme.spacing(2),
+  //     right: theme.spacing(2),
+  //   },
+  //   '&.MuiSpeedDial-directionDown, &.MuiSpeedDial-directionRight': {
+  //     top: theme.spacing(2),
+  //     left: theme.spacing(2),
+  //   },
+  // }));
 
 
 

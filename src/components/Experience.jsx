@@ -1,5 +1,4 @@
 import './Experience.css'
-import 'antd/dist/antd.css'
 
 import {Timeline, Progress} from 'antd'
 import {Card} from 'react-bootstrap'
