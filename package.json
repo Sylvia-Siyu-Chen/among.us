@@ -1,7 +1,6 @@
 {
   "name": "front-end",
   "version": "0.1.0",
-  "homepage": "https://sylvia-siyu-chen.github.io/among.us",
   "private": true,
   "dependencies": {
     "@ant-design/icons": "^4.7.0",
