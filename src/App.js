@@ -90,7 +90,7 @@ function App() {
             />
 
       <header className="App-header">
-        <span id='nav-left'style={{visibility:{visible}}}>
+        <span id='nav-left'>
           <a href="/">Home</a>
           <a href="/education">Education</a>
           <a href="/project">Project</a>
@@ -98,7 +98,7 @@ function App() {
         <span id='nav-right'>
           <a href="/experience">Experience</a>
           <a href="/foto"><del>Foto Portfolio</del></a>
-          <a href="/fun">Fun Facts</a>   
+          <a href="/cat">My Cat</a>   
         </span>
                     
 
@@ -137,7 +137,7 @@ function App() {
                     <Routes>
                       <Route path='/education' element={<Education />}/>
                       <Route path='/project' element={<CarouselControll />}/>
-                      <Route path='/fun' element={<FunFact />}/>
+                      <Route path='/cat' element={<FunFact />}/>
                       <Route path='/foto' element={<Foto />}/>
                       <Route path = '/' element = {<Home />}/>
                       <Route path = '/experience' element = {< Experience/>}/>
