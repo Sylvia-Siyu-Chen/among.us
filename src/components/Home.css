@@ -12,6 +12,38 @@
     left: 0
 }
 
+.logo img{
+    margin-right: 15px;
+}
+
+.logo .github{
+    width: 3%;
+    opacity: 0.4;
+}
+
+.github:hover{
+    opacity: 1;
+}
+
+.linkedin{
+    width: 3.3%;
+    opacity: 0.4; 
+}
+
+.linkedin:hover{
+    opacity: 1;
+}
+
+.insta{
+    width: 3.8%;
+    opacity: 0.4; 
+}
+
+.insta:hover{
+    opacity: 1;
+}
+
+
 
 .intro {
     /* background-color: black; */

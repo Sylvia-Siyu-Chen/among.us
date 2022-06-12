@@ -67,7 +67,7 @@ function FunFactCat(){
                                            <b>July 18 2020</b>
                                         </Card.Title>
                                         <Card.Text className='text'>
-                                            <div>A prefect couch catato!</div>
+                                            <div>A perfect couch catato!</div>
                                             <div> </div>
                                         </Card.Text>
                                     </Card>

@@ -4,6 +4,9 @@ import './Home.css'
 // import signiture from '../img/signiture1.png'
 import { Container, Row, Col } from 'react-bootstrap'
 import  React ,{useEffect, useContext} from 'react'
+import github from '../img/github.png'
+import linkedin from '../img/linkedin.png'
+import insta from '../img/insta.png'
 // import Background from './Background'
 // import { BackgroundImage } from '@mantine/core'
 // import Particles from "react-tsparticles";
@@ -62,6 +65,19 @@ const Home = () => {
                                         <h1 className="content-small">
                                         and welcomes bribes in the form of a Kodak 35mm roll films 
                                         </h1>
+                                        <div className='logo'>
+                                            <a href='https://github.com/Sylvia-Siyu-Chen'>
+                                                <img src={github} className="github" sizes={50}/>
+                                            </a>
+
+                                            <a href='https://www.linkedin.com/in/siyu-sylvia-chen-9438361b4/'>
+                                            <img src={linkedin} className="linkedin" />
+                                            </a>
+
+                                            <a href='https://www.instagram.com/thesylv9/'>
+                                            <img src={insta} className="insta" />
+                                            </a>
+                                        </div>
 
                                         <br />
                                         <a
@@ -72,9 +88,9 @@ const Home = () => {
                                         ><i class="bi bi-github my-icon"></i
                                         ></a>
                                         </div>
+ 
                                         
                                         </div>
-
                                             
 
                                     <a></a>
