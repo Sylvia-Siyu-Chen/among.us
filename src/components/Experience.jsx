@@ -22,9 +22,8 @@ function Experience(){
                     <Timeline mode='alternate'>
 
                         <Timeline.Item>
-                            <img className='smaller' src={aws}/>
-                            <div className='exp_title'><b></b></div>
-                            <div className='exp_title'><b>2022 Sept - Present: Software Development Engineer</b></div>
+                            <img className='aws' src={aws}/>
+                            <div className='exp_title'><b>2022 Sept - Present: <br/>Software Development Engineer</b></div>
                             <div className='exp_detail'>
                                 <div><CaretRightFilled/> Joining <b>EBS</b> (Elastic Block Store), specifically in the data-path part that develops and operates the Server that implements the core storage functionality</div>
                                 <div><CaretRightFilled/> Specializing in <b>distributed systems</b> and <b>C++ in Linux</b></div>
@@ -32,10 +31,20 @@ function Experience(){
                             </div>
                         </Timeline.Item>
 
+                        <Timeline.Item>
+                            <img className='nyu' src={nyu}/>
+                            <div className='exp_title'><b>2018 Sept - 2022 July: <br/> B.A. in Computer Science, <br/>Minor in Math & Business Studies</b></div>
+                            <div className='exp_detail'>
+                                <div><CaretRightFilled/> Dean's List, Co-President @ FOCUS photography club, Class Ambassador of class of 2022 </div>
+
+                                <div><CaretRightFilled/> Participated in filming of Xiamen-Taiwan water suuply documentary; shot 13G footage with Canon XA50 and DJI mavic pro </div>
+                            </div>
+                        </Timeline.Item>
+
 
                         <Timeline.Item>
                             <img className='smaller' src={dsc}/>
-                            <div className='exp_title'><b>2021 Oct - 2022 March: Peer Mentor of Data Science Club @NYU</b></div>
+                            <div className='exp_title'><b>2021 Oct - 2022 March: <br/>Peer Mentor of Data Science Club @NYU</b></div>
                             <div className='exp_detail'>
                                 <div><CaretRightFilled/> Mentoring two mentees about data analysis toolkits with Python </div>
                                 <div><CaretRightFilled/> Technical support for datathons</div>
@@ -45,8 +54,8 @@ function Experience(){
 
 
                         <Timeline.Item color='blue'>
-                            <img src={Loreal}/>
-                            <div className='exp_title'><b>2021 June - August: Enterprise Architect Intern</b></div>
+                            <img className='nyu' src={Loreal}/>
+                            <div className='exp_title'><b>2021 June - August: <br/>Enterprise Architect Intern</b></div>
                             <div className='exp_detail'>
                                 <div><CaretRightFilled/> Engaged in <b>application portfolio management(APM)</b>, managed and visualized application inventory</div>
                                 <div><CaretRightFilled/> Worked in a team of three to conduct <b>application scoring and analysis</b> of 106 apps and prepared rationalization roadmap planning for 56 apps</div>
@@ -64,7 +73,7 @@ function Experience(){
 
                         <Timeline.Item>
                             <img src={bosSci}/>
-                            <div className='exp_title'><b>2021 April - May: Digital Solution Intern</b></div>
+                            <div className='exp_title'><b>2021 April - May:<br/> Digital Solution Intern</b></div>
                             <div className='exp_detail'>
                                 <div><CaretRightFilled/> Participated in the <b>omni-channel</b> project to digitalized sale platform, assisted in communication with third party vendors from Deloitte about the design and use of machine learning models</div>
                                 <div><CaretRightFilled/> Operated an official WeChat account and a WeChat mini-program targeting medical professionals, help ing manage 23k existing users data </div>
@@ -74,8 +83,8 @@ function Experience(){
 
 
                         <Timeline.Item>
-                            <img src={cachet}/>
-                            <div className='exp_title'><b>2021 Feb - April: Product Manager Intern</b></div>
+                            <img className='nyu' src={cachet}/>
+                            <div className='exp_title'><b><il>2021 Feb - April: </il><br/>Product Manager Intern</b></div>
                             <div className='exp_detail'>
                                 <div><CaretRightFilled/> Identified product gaps, assessed and analyzed market and customer demands, prioritized user cases for a live streaming platform</div>
                             </div>
@@ -83,19 +92,9 @@ function Experience(){
 
                         <Timeline.Item>
                             <img src={xmg}/>
-                            <div className='exp_title'><b>2019 July - August: New Media Intern</b></div>
+                            <div className='exp_title'><b><il>2019 July - August:</il> <br/>New Media Intern</b></div>
                             <div className='exp_detail'>
                                 <div><CaretRightFilled/> Helped with editing of weather forecasting channel with <b>Adobe Premiere</b> and <b>Adobe After Effect</b> </div>
-
-                                <div><CaretRightFilled/> Participated in filming of Xiamen-Taiwan water suuply documentary; shot 13G footage with Canon XA50 and DJI mavic pro </div>
-                            </div>
-                        </Timeline.Item>
-
-                        <Timeline.Item>
-                            <img src={nyu}/>
-                            <div className='exp_title'><b>2018 Sept - 2022 July: B.A. in Computer Science, Minor in Math & Business Studies</b></div>
-                            <div className='exp_detail'>
-                                <div><CaretRightFilled/> Dean's List, Co-President @ FOCUS photography club, Class Ambassador of class of 2022 </div>
 
                                 <div><CaretRightFilled/> Participated in filming of Xiamen-Taiwan water suuply documentary; shot 13G footage with Canon XA50 and DJI mavic pro </div>
                             </div>

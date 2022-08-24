@@ -1,9 +1,9 @@
 .experience{
-    color:wheat;
+    color:rgb(244, 242, 239);
     position: static;
     padding-top: 40px;
-    padding-left: 400px;
-    padding-right: 400px;
+    padding-left: 300px;
+    padding-right: 300px;
 }
 
 .exp_timeline b {
@@ -19,11 +19,21 @@
 
 .exp_timeline .smaller{
     width: 20%;
+    padding-bottom: 13px;
+
+}
+
+.exp_timeline .aws{
+    width: 30%;
+    padding-bottom: 15px;
+}
+
+.exp_timeline .nyu{
+    padding-bottom: 13px;
 }
 
 .white-text.ant-progress .ant-progress-text {
     color: aliceblue;
-    font-size: 30;
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
@@ -36,7 +46,7 @@
 }
 
 .exp_timeline .exp_detail {
-    padding-top: 10px;
+    padding-top: 13px;
     color: aliceblue;
 }
 
