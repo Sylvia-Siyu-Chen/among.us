@@ -92,12 +92,12 @@ function App() {
       <header className="App-header">
         <span id='nav-left'>
           <a href="/">Home</a>
-          <a href="/education">Education</a>
-          <a href="/project">Project</a>
+          {/* <a href="/education">Education</a> */}
+          {/* <a href="/project">Project</a> */}
         </span>
         <span id='nav-right'>
           <a href="/experience">Experience</a>
-          <a href="/foto"><del>Foto Portfolio</del></a>
+          {/* <a href="/foto"><del>Foto Portfolio</del></a> */}
           <a href="/cat">My Cat</a>   
         </span>
                     

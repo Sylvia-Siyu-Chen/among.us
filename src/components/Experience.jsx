@@ -8,6 +8,8 @@ import Loreal from '../img/loreal.png'
 import cachet from '../img/cachet.png'
 import dsc from '../img/dsc.png'
 import xmg from '../img/xmg.png'
+import aws from '../img/aws.png'
+import nyu from '../img/nyu.png'
 
 function Experience(){
     return(
@@ -18,6 +20,19 @@ function Experience(){
 
 
                     <Timeline mode='alternate'>
+
+                        <Timeline.Item>
+                            <img className='smaller' src={aws}/>
+                            <div className='exp_title'><b></b></div>
+                            <div className='exp_title'><b>2022 Sept - Present: Software Development Engineer</b></div>
+                            <div className='exp_detail'>
+                                <div><CaretRightFilled/> Joining <b>EBS</b> (Elastic Block Store), specifically in the data-path part that develops and operates the Server that implements the core storage functionality</div>
+                                <div><CaretRightFilled/> Specializing in <b>distributed systems</b> and <b>C++ in Linux</b></div>
+
+                            </div>
+                        </Timeline.Item>
+
+
                         <Timeline.Item>
                             <img className='smaller' src={dsc}/>
                             <div className='exp_title'><b>2021 Oct - 2022 March: Peer Mentor of Data Science Club @NYU</b></div>
@@ -71,6 +86,16 @@ function Experience(){
                             <div className='exp_title'><b>2019 July - August: New Media Intern</b></div>
                             <div className='exp_detail'>
                                 <div><CaretRightFilled/> Helped with editing of weather forecasting channel with <b>Adobe Premiere</b> and <b>Adobe After Effect</b> </div>
+
+                                <div><CaretRightFilled/> Participated in filming of Xiamen-Taiwan water suuply documentary; shot 13G footage with Canon XA50 and DJI mavic pro </div>
+                            </div>
+                        </Timeline.Item>
+
+                        <Timeline.Item>
+                            <img src={nyu}/>
+                            <div className='exp_title'><b>2018 Sept - 2022 July: B.A. in Computer Science, Minor in Math & Business Studies</b></div>
+                            <div className='exp_detail'>
+                                <div><CaretRightFilled/> Dean's List, Co-President @ FOCUS photography club, Class Ambassador of class of 2022 </div>
 
                                 <div><CaretRightFilled/> Participated in filming of Xiamen-Taiwan water suuply documentary; shot 13G footage with Canon XA50 and DJI mavic pro </div>
                             </div>

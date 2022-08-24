@@ -57,7 +57,8 @@ const Home = () => {
                                 <div class="text-container">
                                     <div className='bold'>
                                         <h1 class="bold">Hey, it's Sylvia</h1>
-                                        <h1 class="content">creating but mostly breaking things @ NYU</h1>
+                                        <h1 class="content">an atypical sde @Amazon AWS</h1>
+                                        <h1 class="content">former student @ NYU</h1>
                                         <h1 class="content">
                                         who writes code,</h1>
                                         <h1 class="content"> takes photos,</h1>

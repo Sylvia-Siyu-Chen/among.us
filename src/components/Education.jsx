@@ -6,6 +6,7 @@ import nyuname from '../img/nyu.png'
 // import Stack from '@mui/material/Stack'
 // import {styled} from '@mui/material/styles'
 import { Collapse } from 'antd'
+import Car from './Carousel'
 import {Container,Col, Row} from 'react-bootstrap'
 // import { blue } from '@mui/material/colors'
 
@@ -23,10 +24,10 @@ function Education(){
                         </div>
                     </Col>
                     <Col id='edu_right'>
-                    <div className="edu_text"><a href='https://www.nyu.edu/'><img src = {nyuname} width = {800}/></a>
-                        
-                        <h3><b>B.A. in <b>Computer Science</b>
-                         Minor in Mathmatics and Business Studies</b></h3>
+                    <div className="edu_text"><a href='https://www.nyu.edu/'><img src = {nyuname} width = {300}/></a>
+                      
+                        <h3>  <div></div><b>B.A. in <b>Computer Science</b>
+                        <div></div>Minor in Mathmatics and Business Studies</b></h3>
                         <div className='courses'>
                     <Collapse defaultActiveKey={[0,1]} ghost>
                         <Panel header='Computer Science relevant coursework'id='header' >
