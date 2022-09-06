@@ -36,8 +36,6 @@ function Experience(){
                             <div className='exp_title'><b>2018 Sept - 2022 July: <br/> B.A. in Computer Science, <br/>Minor in Math & Business Studies</b></div>
                             <div className='exp_detail'>
                                 <div><CaretRightFilled/> Dean's List, Co-President @ FOCUS photography club, Class Ambassador of class of 2022 </div>
-
-                                <div><CaretRightFilled/> Participated in filming of Xiamen-Taiwan water suuply documentary; shot 13G footage with Canon XA50 and DJI mavic pro </div>
                             </div>
                         </Timeline.Item>
 
