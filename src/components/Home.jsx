@@ -71,7 +71,7 @@ const Home = () => {
                                                 <img src={github} className="github" sizes={50}/>
                                             </a>
 
-                                            <a href='https://www.linkedin.com/in/siyu-sylvia-chen-9438361b4/'>
+                                            <a href="https://www.linkedin.com/in/sylvia-siyu-chen-9438361b4/">
                                             <img src={linkedin} className="linkedin" />
                                             </a>
 
